@@ -37,7 +37,7 @@ jobs:
               libdbus-1-dev \
               libpam0g-dev \
               libseccomp-dev \
-              libselinux1-dev
+              libselinux1-dev libcap-dev
         sudo apt-get install -qq libapparmor-dev libcap-dev libseccomp-dev libselinux1-dev linux-libc-dev libpam0g-dev docbook2x libdbus-1-dev
         mkdir -p $GITHUB_WORKSPACE/kernel_workspace
         cd $GITHUB_WORKSPACE/kernel_workspace
