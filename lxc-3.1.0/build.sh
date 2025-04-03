@@ -6,12 +6,11 @@ make distclean
 ./autogen.sh
 
 CPPFLAGS="$CPPFLAGS $CFLAGS" \
-./configure --host=$BUILD_TARGET_HOST --enable-shared=yes --enable-static=yes \
-	--disable-api-docs \
+./configure --host=$BUILD_TARGET_HOST --disable-api-docs \
 	--disable-selinux \
 	--disable-seccomp \
 	--disable-werror \
-	--disable-capabilities \
+	--enable-capabilities \
 	--disable-examples \
 	--disable-lua \
 	--disable-python \
