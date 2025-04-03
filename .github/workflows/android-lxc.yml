@@ -58,9 +58,9 @@ jobs:
     - name: build android LXC
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
-        ls /android-ndk-r28b
+        ls /android-ndk-r18b
         ls /sdk
-        ls /android-ndk-r28b/toolchains/llvm/prebuilt/linux-x86_64/bin
+        ls /android-ndk-r18b/toolchains/llvm/prebuilt/linux-x86_64/bin
         git clone https://github.com/tomxi1997/lxc3
         cd lxc3
         source envsetup_arm_64.sh
