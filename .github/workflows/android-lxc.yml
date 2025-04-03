@@ -84,6 +84,6 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: lxc-android24-arm64
-        path: kernel_workspace/lxc.tar.xz
+        path: kernel_workspace/lxc3.tar.xz
 
   
