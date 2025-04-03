@@ -45,7 +45,7 @@ jobs:
         unzip *.zip && rm *.zip
         sudo mkdir -p /build/
         sudo mv android-ndk-r18b /android-ndk-r18b
-        sudo /android-ndk-r18b/build/tools/make_standalone_toolchain.py --arch arm64 --api 25 --stl=libc++ --install-dir=/opt/toolchain/android-toolchain-arm_64-4.9-android-25 --force
+        sudo /android-ndk-r18b/build/tools/make_standalone_toolchain.py --arch arm64 --api 24 --stl=libc++ --install-dir=/opt/toolchain/android-toolchain-arm_64-4.9-android-24 --force
         
         wget https://dl.google.com/android/repository/tools_r25.2.3-linux.zip
         unzip tools_r25.2.3-linux.zip -d sdk
