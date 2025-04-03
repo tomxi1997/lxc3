@@ -1,6 +1,6 @@
 export ANDROID_SDK_HOME=/sdk
 export ANDROID_NDK_HOME=/android-ndk-r18b
-export ANDROID_STANDALONE_TOOLCHAIN_HOME=/opt/toolchain/android-toolchain-arm_64-4.9-android-25
+export ANDROID_STANDALONE_TOOLCHAIN_HOME=/opt/toolchain/android-toolchain-arm_64-4.9-android-24
 export SYSROOT=$ANDROID_STANDALONE_TOOLCHAIN_HOME/sysroot
 
 # User specific environment and startup programs
