@@ -1,6 +1,6 @@
-export ANDROID_SDK_HOME=/home/sting/local/android-sdk-linux
-export ANDROID_NDK_HOME=/home/sting/local/android-ndk-r15b
-export ANDROID_STANDALONE_TOOLCHAIN_HOME=/opt/toolchain/android-toolchain-arm_64-4.9-android-24
+export ANDROID_SDK_HOME=/sdk
+export ANDROID_NDK_HOME=/android-ndk-r18b
+export ANDROID_STANDALONE_TOOLCHAIN_HOME=/opt/toolchain/android-toolchain-arm_64-4.9-android-25
 export SYSROOT=$ANDROID_STANDALONE_TOOLCHAIN_HOME/sysroot
 
 # User specific environment and startup programs
