@@ -77,7 +77,7 @@ jobs:
         
     - name: add lxc tar
       run: |
-        sudo bash -c 'cd /data && tar -czvf lxc3.tar.xz llxc3 && cp lxc3.tar.xz /home/runner/work/lxc3/lxc3/kernel_workspace'
+        sudo bash -c 'cd /data && tar -czvf lxc3.tar.xz lxc3 && cp lxc3.tar.xz /home/runner/work/lxc3/lxc3/kernel_workspace'
     
 
     - name: Upload lxc
